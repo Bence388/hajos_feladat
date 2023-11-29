@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="eredmeny"></div>
+
+    <script>
+        fetch('/questions/all')
+            .then(response => response.json())
+            .then(data => console.log(data)
+            );
+    </script>
+
+</body>
+</html>
